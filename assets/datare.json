@@ -1,0 +1,588 @@
+[
+    {
+      "type": "Linen Pants",
+      "desc": "Men casual linen pants that combine style , comfort , and quality in one package.",
+      "img": "https://korneliarataj.com/wp-content/uploads/2022/04/LINEN2022-PANTS-BLACK-1-scaled.jpg",
+      "price": "600",
+      "original_price": "780",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Joggers",
+      "desc": "Men sports ware joggers pants that combine style , comfort , and quality in one package.",
+      "img": "https://i.etsystatic.com/16127385/r/il/7b84be/3044007084/il_1140xN.3044007084_jqrz.jpg",
+      "price": "999",
+      "original_price": "1299",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Cargo pants",
+      "desc": "Black solid baggy-fit mid-rise cargos, has an elasticated waistband with drawstring closure and two pockets",
+      "img": "https://i5.walmartimages.com/asr/24c73a7d-7557-49bc-a2a7-1569d1b6e96d_1.2ebe38cf059de40e961364b9a44e0760.jpeg",
+      "price": "1049",
+      "original_price": "1363",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Cropped pants",
+      "desc": "Black solid mid-rise cropped regular trousers, has a hook and bar closure, four pockets",
+      "img": "https://cdnb.lystit.com/photos/2013/04/12/asos-black-skinny-fit-ankle-grazer-trousers-product-1-7785441-598940124.jpeg",
+      "price": "699",
+      "original_price": "7909",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Slim Fit Formal Shirt",
+      "desc": "Black solid opaque Formal shirt ,has a spread collar, button placket, 1 patch pocket, long regular sleeves, curved hem",
+      "img": "https://rajubhaihargovindas.com/12277-large_default/japs-black-cotton-formal-shirt.jpg",
+      "price": "1099",
+      "original_price": "1429",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Linen Club",
+      "desc": "Black solid opaque Casual shirt ,has a spread collar, button placket, 1 pocket, short regular sleeves, curved hem , pure linen",
+      "img": "https://www.surfstitch.com/on/demandware.static/-/Sites-ss-master-catalog/default/dw38c655ae/images/20AM10A2BLACK/BLACK-MENS-CLOTHING-RPM-SHIRTS-20AM10A2BLACK_1.JPG",
+      "price": "2499",
+      "original_price": "3249",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Mandarin Collar ",
+      "desc": "Black solid opaque casual shirt ,has a mandarin collar, button placket, long regular sleeves, curved hem",
+      "img": "https://i.pinimg.com/originals/a3/00/7b/a3007ba31f5c9b3c93c55f4893db8258.jpg",
+      "price": "2099",
+      "original_price": "2729",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Analog watch",
+      "desc": "Display:Analog, Movement: quartz, Power Source: battery, Features: reset time",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/81-Vg9DQxEL._AC_UY741_.jpg",
+      "price": "2650",
+      "original_price": "3445",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Smart watch",
+      "desc": "Advanced Single Chip BT Calling for faster & stable pairing, Heart Rate Monitor, Touch Screen",
+      "img": "https://www.smartgearcompare.nl/wp-content/uploads/2019/12/SmartWatch-Trends-ID205L-Smartwatch-Zwart.jpg",
+      "price": "2999",
+      "original_price": "3899",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Formal shoes",
+      "desc": "A pair of black solid round-toe formal oxfords with regular styling has a lace-up closure",
+      "img": "https://feetway.com/wp-content/uploads/2021/04/1106-1-2048x1536.jpg",
+      "price": "3299",
+      "original_price": "4289",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Sneakers",
+      "desc": "A pair of round-toe black sneakers, has regular styling, lace-up detail",
+      "img": "https://i5.walmartimages.com/asr/b91548f6-4919-4e1c-a044-dd14046688f0_1.e4f94c7fd2969e9422203b63fc7daf53.jpeg",
+      "price": "6999",
+      "original_price": "9099",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Sports shoes",
+      "desc": "A pair of black solid with round toe sports shoes with regular styling has a lace up closure",
+      "img": "https://cdn.shopclues.com/images1/detailed/105428/149206768-105428134-1583996391.jpg",
+      "price": "2999",
+      "original_price": "3899",
+      "color": "black",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Linen Pants",
+      "desc": "Men casual linen pants that combine style , comfort , and quality in one package.",
+      "img": "https://slimages.macysassets.com/is/image/MCY/products/1/optimized/11398871_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$",
+      "price": "600",
+      "original_price": "780",
+      "color": "white",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Joggers",
+      "desc": "Men sports ware joggers pants that combine style , comfort , and quality in one package.",
+      "img": "https://i.pinimg.com/originals/f5/be/b0/f5beb0054e60f4c3f4d7179541f9790a.jpg",
+      "price": "999",
+      "original_price": "1299",
+      "color": "white",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Cargo pants",
+      "desc": "Black solid baggy-fit mid-rise cargos, has an elasticated waistband with drawstring closure and four pockets",
+      "img": "https://i.pinimg.com/originals/10/55/e4/1055e46d43989687f86bf027d1329381.jpg",
+      "price": "1049",
+      "original_price": "1363",
+      "color": "white",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Cropped pants",
+      "desc": "Black solid mid-rise cropped regular trousers, has a hook and bar closure, four pockets",
+      "img": "https://cc-west-usa.oss-accelerate.aliyuncs.com/2050/1596770441982.jpg",
+      "price": "699",
+      "original_price": "909",
+      "color": "white",
+      "gender": "Male",
+      "isFavorite": false
+    },
+    {
+      "type": "Slim Fit Formal Shirt",
+      "desc": "Black solid opaque Formal shirt ,has a spread collar, button placket, 1 patch pocket, long regular sleeves, curved hem",
+      "img": "https://assets.myntassets.com/h_200,w_200,c_fill,g_auto/h_1440,q_100,w_1080/v1/assets/images/productimage/2019/1/30/391cb343-39bd-4169-aa2d-d5ec525ba0f21548844765977-1.jpg",
+        "price": "1099",
+        "original_price": "1409",
+        "color":"white",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Linen Club",
+        "desc": "Black solid opaque Casual shirt ,has a spread collar, button placket, 1 pocket, short regular sleeves, curved hem , pure linen",
+        "img": "https://cdnc.lystit.com/photos/2012/10/22/polo-ralph-lauren-white-shortsleeved-linen-shirt-product-1-5052621-211947208.jpeg",
+        "price": "2499",
+        "original_price": "2909",
+        "color":"white",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Mandarin Collar ",
+        "desc": "Black solid opaque casual shirt ,has a mandarin collar, button placket, long regular sleeves, curved hem",
+        "img": "https://cf.shopee.ph/file/7973a0284ab88d612351ef357e1187b4",
+        "price": "2099",
+        "original_price": "2909",
+        "color":"white",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Analog watch",
+        "desc": "Display:Analog, Movement: quartz, Power Source: battery, Features: reset time",
+        "img": "https://i.pinimg.com/originals/b5/50/71/b55071fc88a06d1493f62d0bc4fb3b35.jpg",
+        "price": "2650",
+        "original_price": "3409",
+        "color":"white",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Smart watch",
+        "desc": "Advanced Single Chip BT Calling for faster & stable pairing, Heart Rate Monitor, Touch Screen",
+        "img": "https://cdnp1.stackassets.com/0c5e4960529773cc6ff2074679bc69f1a02ce326/store/opt/596/447/a6ce1253f1a941a5af2898a1c156a201ad1c94992011433e9261cb061869/product_50320_product_shots2.jpg",
+        "price": "2999",
+        "original_price": "3409",
+        "color":"white",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Formal shoes",
+        "desc": "A pair of black solid round-toe formal oxfords with regular styling has a lace-up closure",
+        "img": "https://m.media-amazon.com/images/I/71ZVYaiWZiL.jpg",
+        "price": "3299",
+        "original_price": "3909",
+        "color":"white",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Sneakers",
+        "desc": "A pair of round-toe black sneakers, has regular styling, lace-up detail",
+        "img": "https://i5.walmartimages.com/asr/bb5ff505-6bf3-4513-bc73-2bfc939e95eb_1.8f8477a207834b98fea649b8ae6e6222.jpeg",
+        "price": "6999",
+         "original_price": "7909",
+        "color":"white",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Sports shoes",
+        "desc": "A pair of black solid with round toe sports shoes with regular styling has a lace up closure",
+        "img": "https://5.imimg.com/data5/SELLER/Default/2020/8/KG/AJ/MD/64760880/adidas-sports-shoes.jpg",
+        "price": "2999",
+        "original_price": "3409",
+        "color":"white",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Linen Pants",
+        "desc": "Men casual linen pants that combine style , comfort , and quality in one package.",
+        "img": "https://cdnd.lystit.com/photos/1f05-2015/03/17/freemans-sporting-club-navy-linen-pants-regular-fit-blue-product-1-213428671-normal.jpeg",
+        "price": "600",
+        "original_price": "909",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Joggers",
+        "desc": "Men sports ware joggers pants that combine style , comfort , and quality in one package.",
+        "img": "https://i5.walmartimages.com/asr/5f101ab3-1d87-49f8-a908-a57aadc6e1bd_1.fd1ee4531797fb22efa6cdf05c2e40c6.jpeg",
+        "price": "999",
+        "original_price": "1209",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Cargo pants",
+        "desc": "Black solid baggy-fit mid-rise cargos, has an elasticated waistband with drawstring closure and two pockets",
+        "img": "https://m.media-amazon.com/images/I/510YoFQdw0L._AC_UL1001_.jpg",
+        "price": "1049",
+        "original_price": "1409",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Cropped pants",
+        "desc": "Black solid mid-rise cropped regular trousers, has a hook and bar closure, four pockets",
+        "img": "https://cdnd.lystit.com/photos/asos/24e5c779/asos-Navy-Tall-Skinny-Cropped-Smart-Pants-In-Navy.jpeg",
+        "price": "699",
+        "original_price": "909",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Slim Fit Formal Shirt",
+        "desc": "Black solid opaque Formal shirt ,has a spread collar, button placket, 1 patch pocket, long regular sleeves, curved hem",
+        "img": "https://handcmediastorage.blob.core.windows.net/productimages/SE/SEPMV014-G01-132687-800px-1040px.jpg",
+        "price": "1099",
+        "original_price": "1509",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Linen Club",
+        "desc": "Black solid opaque Casual shirt ,has a spread collar, button placket, 1 pocket, short regular sleeves, curved hem , pure linen",
+        "img": "https://i.pinimg.com/originals/df/ee/f9/dfeef989e00e75aa6a8ef37f284c5321.jpg",
+        "price": "2499",
+        "original_price": "2909",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Mandarin Collar ",
+        "desc": "Black solid opaque casual shirt ,has a mandarin collar, button placket, long regular sleeves, curved hem",
+        "img": "https://cdn.shopclues.com/images/detailed/85301/128982385_IMAETM9V8HB9FHQE_1506450676.jpg",
+        "price": "2099",
+        "original_price": "2909",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Analog watch",
+        "desc": "Display:Analog, Movement: quartz, Power Source: battery, Features: reset time",
+        "img": "https://5.imimg.com/data5/RL/BL/MY-4390697/guess-analog-blue-dial-men-27s-watch-w0366g4-1000x1000.jpg",
+        "price": "2650",
+        "original_price": "2909",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Smart watch",
+        "desc": "Advanced Single Chip BT Calling for faster & stable pairing, Heart Rate Monitor, Touch Screen",
+        "img": "https://m.media-amazon.com/images/I/71q3qp2vJmS._AC_UL640_QL65_.jpg",
+        "price": "2999",
+        "original_price": "3409",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Formal shoes",
+        "desc": "A pair of black solid round-toe formal oxfords with regular styling has a lace-up closure",
+        "img": "https://d3u67r7pp2lrq5.cloudfront.net/product_photos/77532385/file_9bdf6e94bd_original.jpg",
+        "price": "3299",
+        "original_price": "3909",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Sneakers",
+        "desc": "A pair of round-toe black sneakers, has regular styling, lace-up detail",
+        "img": "https://cdna.lystit.com/photos/pretendsupply/0bb21a0c/vans-Navy-X-Spitfire-Av-Rapidweld-Shoes.jpeg",
+        "price": "6999",
+        "original_price": "7909",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    {
+        "type": "Sports shoes",
+        "desc": "A pair of black solid with round toe sports shoes with regular styling has a lace up closure",
+        "img": "https://assetscdn1.paytm.com/images/catalog/product/F/FO/FOOSKECHERS-SPOSHOE7498027E359D4/1563353917604_0..jpg",
+        "price": "2999",
+        "original_price": "3909",
+        "color":"Navy-Blue",
+        "gender":"Male",
+        "isFavorite": false
+    },
+    
+        {
+            "color": "black",
+            "gender": "Female",
+            "type": "Frock",
+            "desc": "Long Sleeve, Short Mini Dress, Cocktail Dress, Printed, Floral Dress, Party Dress, Overlay Dress",
+            "img": "https://m.media-amazon.com/images/I/51pcb1jNrHL._SY741_.jpg",
+            "price": "399",
+            "original_price": "518.7",
+            "isFavorite": false
+        },
+        {
+            "color": "black",
+            "gender": "Female",
+            "type": "Hoodies",
+            "desc": "Black solid sweatshirt has a hood, 2 pockets, long sleeves, straight hem",
+            "img": "https://i.pinimg.com/originals/46/71/53/467153d606be1ec51db7f99400f68a01.jpg",
+            "price": "799",
+            "original_price": "1038.7",
+            "isFavorite": false
+
+        },
+        {
+            "color": "black",
+            "gender": "Female",
+            "type": "Trousers",
+            "desc": "Women's Classic Wide Leg Trouser, a timeless design that fits snugly through the waist and gracefully flares out below the hips.",
+            "img": "https://www.simonjersey.com/images/womens-linen-blend-straight-leg-trousers-black-p1822-169417_image.jpgg",
+            "price": "1599",
+            "original_price": "2078.7",
+            "isFavorite": false
+        },
+        {
+            "color": "black",
+            "gender": "Female",
+            "type": "Palazzo",
+            "desc": "Pair our Basic Palazzos with a button-up shirt or a short kurta for a chic and elegant look that's suitable for any occasion.",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/71TE0I7yHaL._AC_UX679_.jpg",
+            "price": "699",
+            "original_price": "908.7",
+            "isFavorite": false
+        },
+        {
+            "color": "black",
+            "gender": "Female",
+            "type": "Smartwatch",
+            "desc": "Tru Sync: Experience fast and stable connectivity with low power consumption. BT calling: Stay in touch with your friends - right from your wrist. Battery Capacity : 300mAh",
+            "img": "https://www.33rdsquare.com/wp-content/uploads/2020/12/Apple-Watch-Series-6-1.jpg",
+            "price": "1499",
+            "original_price": "1948.7",
+            "isFavorite": false
+        },
+        {
+            "color": "white",
+            "gender": "Female",
+            "type": "Frock",
+            "desc": "Long Sleeve, Short Mini Dress, Cocktail Dress, Printed, Floral Dress, Party Dress, Overlay Dress",
+            "img": "https://m.media-amazon.com/images/I/61gFT+Fdv-L._SY741_.jpg",
+            "price": "399",
+            "original_price": "518.7",
+            "isFavorite": false
+        },
+        {
+            "color": "white",
+            "gender": "Female",
+            "type": "Jumpsuits",
+            "desc": "Fabric: 96% Polyester 4% Spandex Wide Leg Pattern: Solid Fit: Relaxed Neck: V-Neck Sleeves: Sleeveless Length: Regular",
+            "img": "https://m.media-amazon.com/images/I/61GT9TZfcxL._SY741_.jpg",
+            "price": "999",
+            "original_price": "1298.7",
+            "isFavorite": false
+        },
+        {
+            "color": "white",
+            "gender": "Female",
+            "type": "Handbag",
+            "desc": "It is versatile, durable and lightweight. Made from premium man-made leather, this stylish bag has the latest herringbone texture at the front and a well stitched inner lining for easy accessibility and storage.",
+            "img": "https://m.media-amazon.com/images/I/61pMHRR5aeL._SY625_.jpg",
+            "price": "1609",
+            "original_price": "2091.7",
+            "isFavorite": false
+        },
+        {
+            "color": "white",
+            "gender": "Female",
+            "type": "Sandals - heels",
+            "desc": "Material: SYNTHETIC Heel Type: Wedges Heel Height: 5 Inch.",
+            "img": "https://m.media-amazon.com/images/I/71yGxKZUsML._SY625_.jpg",
+            "price": "1533",
+            "original_price": "1992.9",
+            "isFavorite": false
+        },
+        {
+            "color": "white",
+            "gender": "Female",
+            "type": "Shoes",
+            "desc": "Fashionable and Comfortable: standing walking or running without pain all day. This pair of shoes is a perfect blend of trend and comfort.",
+            "img": "https://m.media-amazon.com/images/I/41+uYCFYaDL._SY695_.jpg",
+            "price": "499",
+            "original_price": "648.7",
+            "isFavorite": false
+        },
+        {
+            "color": "white",
+            "gender": "Female",
+            "type": "Smartwatch",
+            "desc": "Tru Sync: Experience fast and stable connectivity with low power consumption. BT calling: Stay in touch with your friends - right from your wrist. Battery Capacity : 300mAh",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/51PvAEo-UZL._SL1000_.jpg",
+            "price": "1499",
+            "original_price": "1948.7",
+            "isFavorite": false
+        },
+        
+        {
+            "color": "pink",
+            "gender": "Female",
+            "type": "Jumpsuits",
+            "desc": "Fabric: 96% Polyester 4% Spandex Wide Leg Pattern: Solid Fit: Relaxed Neck: round-Neck Sleeves: Sleeveless Length: Regular",
+            "img": "https://i.pinimg.com/originals/51/84/fa/5184fa263f96ff8263ef0d0b3861dd72.jpg",
+            "price": "1999",
+            "original_price": "2598.7",
+            "isFavorite": false
+        },
+        {
+            "color": "pink",
+            "gender": "Female",
+            "type": "Hoodies",
+            "desc": "Light pink sweatshirt has a hood, 2 pockets, long sleeves",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/61zhvB%2BC2PL._AC_UL1500_.jpg",
+            "price": "799",
+            "original_price": "1038.7",
+            "isFavorite": false
+        },
+        {
+            "color": "pink",
+            "gender": "Female",
+            "type": "Cargo",
+            "desc": "Oversized - Super Loose On Body 100% Nylon - fabric is strong, durable and lightweight.",
+            "img": "https://m.media-amazon.com/images/I/51oZb6ObciL._AC_UY1000_.jpg",
+            "price": "1999",
+            "original_price": "2598.7",
+            "isFavorite": false
+        },
+        {
+            "color": "pink",
+            "gender": "Female",
+            "type": "Trousers",
+            "desc": "Women's Classic Wide Leg Trouser, a timeless design that fits snugly through the waist and gracefully flares out below the hips.",
+            "img": "https://i5.walmartimages.com/asr/c94212dc-a951-4667-b04e-6e186bbe6d43_1.46c6ce364cdd8476c941f9f07f5db2be.jpeg",
+            "price": "1599",
+            "original_price": "2078.7",
+            "isFavorite": false
+        },
+        {
+            "color": "pink",
+            "gender": "Female",
+            "type": "Formal suits",
+            "desc": "Light pink-coloured solid formal blazer, has a notched lapel collar, single-breasted with single button closure, long sleeves and two pockets",
+            "img": "https://i.pinimg.com/originals/6c/ba/eb/6cbaebfecb93acddb4d36b4d82efcf91.jpg",
+            "price": "2499",
+            "original_price": "3248.7",
+            "isFavorite": false
+        },
+        {
+            "color": "pink",
+            "gender": "Female",
+            "type": "Frock",
+            "desc": "Short Sleeve, Short Mini Dress, Cocktail Dress, crepe, Floral Dress, Party Dress",
+            "img": "https://m.media-amazon.com/images/I/419xTCMWDvL.jpg",
+            "price": "599",
+            "original_price": "778.7",
+            "isFavorite": false
+        },
+        {
+            "color": "pink",
+            "gender": "Female",
+            "type": "Smartwatch",
+            "desc": "Tru Sync: Experience fast and stable connectivity with low power consumption. BT calling: Stay in touch with your friends - right from your wrist. Battery Capacity : 300mAh",
+            "img": "https://techdetects.com/wp-content/uploads/2021/04/Fitbit-Versa-Smart-Watch-1024x942.png",
+            "price": "1499",
+            "original_price": "1948.7",
+            "isFavorite": false
+        },
+        {
+            "color": "green",
+            "gender": "Female",
+            "type": "Frock",
+            "desc": "Short Sleeve, Short Mini Dress, Cocktail Dress, crepe, Floral Dress, Party Dress",
+            "img": "https://rukminim1.flixcart.com/image/332/398/kflftzk0/dress/p/q/w/l-1234-black-frock-jc4-original-imafwyggd3aen8g2.jpeg?q=50",
+            "price": "599",
+            "original_price": "778.7",
+            "isFavorite": false
+        },
+        {
+            "color": "green",
+            "gender": "Female",
+            "type": "Jumpsuits",
+            "desc": "Fabric: 96% Polyester 4% Spandex Wide Leg Pattern: Solid Fit: Relaxed Neck: round-Neck Sleeves: Sleeveless Length: Regular",
+            "img": "https://rukminim1.flixcart.com/image/832/832/j9d3bm80/jumpsuit/w/g/w/l-jumpsuit-28-harley-davidson-original-imaez3yfbgjkc3xy.jpeg?q=70",
+            "price": "1999",
+            "original_price": "2598.7",
+            "isFavorite": false
+        },
+        {
+            "color": "green",
+            "gender": "Female",
+            "type": "Hoodies",
+            "desc": "Light green sweatshirt has a hood, 2 pockets, long sleeves",
+            "img": "https://i.pinimg.com/736x/7f/3e/39/7f3e39536da0a1c4e7395c8abac7bc8f--jacket-patterns-mens-tops.jpg",
+            "price": "799",
+            "original_price": "1038.7",
+            "isFavorite": false
+        },
+        {
+            "color": "green",
+            "gender": "Female",
+            "type": "Cargo",
+            "desc": "Oversized - Super Loose On Body 100% Nylon - fabric is strong, durable and lightweight.",
+            "img": "https://m.media-amazon.com/images/I/61zhvB%2BC2PL._AC_UL1500_.jpg",
+            "price": "1999",
+            "original_price": "2598.7",
+            "isFavorite": false
+        }
+
+    
+
+]
