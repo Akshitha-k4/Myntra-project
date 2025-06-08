@@ -125,7 +125,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                                     quantity--;
                                     Provider.of<ProductsProvider>(context,
                                             listen: false)
-                                        .addToCart(widget.product);
+                                        .removeFromCart(widget.product);
                                   } else {
                                     quantity = 0;
                                     Provider.of<ProductsProvider>(context,

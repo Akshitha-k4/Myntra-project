@@ -77,19 +77,12 @@ class CartScreen extends StatelessWidget {
                           ),
                         ],
                       ),
-                      trailing: Expanded(
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            IconButton(
-                              icon: const Icon(Icons.remove_circle,
-                                  color: Colors.red),
-                              onPressed: () {
-                                productProvider.removeFromCart(product);
-                              },
-                            ),
-                          ],
-                        ),
+                      trailing: IconButton(
+                        icon:
+                            const Icon(Icons.remove_circle, color: Colors.red),
+                        onPressed: () async {
+                          await productProvider.removeFromCart(product);
+                        },
                       ),
                     ),
                   ),

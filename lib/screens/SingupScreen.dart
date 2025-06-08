@@ -1,6 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:myntra/screens/homeScreen.dart';
+import 'package:provider/provider.dart';
+import 'package:myntra/providers/products.dart'; // Import your provider
 
 class SignupScreen extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
@@ -29,6 +31,10 @@ class SignupScreen extends StatelessWidget {
         email: emailController.text.trim(),
         password: passwordController.text.trim(),
       );
+
+      // Load user's cart data from Firebase after signup
+      await Provider.of<ProductsProvider>(context, listen: false)
+          .loadCartFromFirebase();
 
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
@@ -79,8 +85,6 @@ class SignupScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            
-            
             Center(
               child: Text(
                 'Myntra',

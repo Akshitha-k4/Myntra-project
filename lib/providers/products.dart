@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:firebase_database/firebase_database.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
 import 'product.dart';
 
@@ -9,27 +11,58 @@ class CartItem {
   int quantity;
 
   CartItem({required this.product, this.quantity = 1});
+
+  Map<String, dynamic> toMap() {
+    return {
+      'productName': product.name,
+      'quantity': quantity,
+    };
+  }
+
+  static CartItem fromMap(
+      Map<dynamic, dynamic> map, List<Product> allProducts) {
+    final productName = map['productName'] as String;
+    final quantity = map['quantity'] as int;
+
+    final product =
+        allProducts.firstWhere((p) => p.name == productName, orElse: () {
+      throw Exception('Product $productName not found in local list.');
+    });
+
+    return CartItem(product: product, quantity: quantity);
+  }
 }
 
 class ProductsProvider extends ChangeNotifier {
-  late List<Product> _products;
+  List<Product> _products = [];
   List<Product> _filteredProducts = [];
   List<CartItem> cartItems = [];
+
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+  final FirebaseDatabase _database = FirebaseDatabase.instance;
 
   List<Product> get products =>
       _filteredProducts.isNotEmpty ? _filteredProducts : _products;
 
   ProductsProvider() {
-    _products = [];
-    loadProducts();
+    _init();
+  }
+
+  Future<void> _init() async {
+    await loadProducts();
+    await loadCartFromFirebase();
   }
 
   Future<void> loadProducts() async {
     try {
-      String jsonString = await rootBundle.loadString('assets/datare.json');
-      List<dynamic> jsonList = json.decode(jsonString);
-      _products = jsonList.map((json) => Product.fromJson(json)).toList();
+      final jsonString = await rootBundle.loadString('assets/datare.json');
+      final jsonList = json.decode(jsonString) as List<dynamic>;
+
+      _products = jsonList
+          .map((json) => Product.fromJson(json))
+          .toList(growable: false);
       _filteredProducts = List.from(_products);
+
       notifyListeners();
     } catch (e) {
       print('Error loading products: $e');
@@ -46,14 +79,14 @@ class ProductsProvider extends ChangeNotifier {
 
   void filterProducts(String color, String gender) {
     _filteredProducts = _products
-        .where((product) =>
-            product.color.toLowerCase() == color.toLowerCase() &&
-            product.gender.toLowerCase() == gender.toLowerCase())
-        .toList();
+        .where((p) =>
+            p.color.toLowerCase() == color.toLowerCase() &&
+            p.gender.toLowerCase() == gender.toLowerCase())
+        .toList(growable: false);
     notifyListeners();
   }
 
-  void addToCart(Product product) {
+  Future<void> addToCart(Product product) async {
     final existingIndex =
         cartItems.indexWhere((item) => item.product.name == product.name);
 
@@ -62,10 +95,12 @@ class ProductsProvider extends ChangeNotifier {
     } else {
       cartItems.add(CartItem(product: product, quantity: 1));
     }
+
     notifyListeners();
+    await saveCartToFirebase();
   }
 
-  void removeFromCart(Product product) {
+  Future<void> removeFromCart(Product product) async {
     final index =
         cartItems.indexWhere((item) => item.product.name == product.name);
 
@@ -75,7 +110,9 @@ class ProductsProvider extends ChangeNotifier {
       } else {
         cartItems.removeAt(index);
       }
+
       notifyListeners();
+      await saveCartToFirebase();
     }
   }
 
@@ -84,6 +121,56 @@ class ProductsProvider extends ChangeNotifier {
       return cartItems.firstWhere((item) => item.product.name == product.name);
     } catch (e) {
       return null;
+    }
+  }
+
+  Future<void> loadCartFromFirebase() async {
+    final user = _auth.currentUser;
+    if (user == null) {
+      // User not logged in, empty cart
+      cartItems = [];
+      notifyListeners();
+      return;
+    }
+
+    final cartRef = _database.ref('carts/${user.uid}');
+    try {
+      final snapshot = await cartRef.get();
+      if (snapshot.exists) {
+        final cartData = snapshot.value as Map<dynamic, dynamic>;
+        final loadedCart = <CartItem>[];
+
+        cartData.forEach((key, value) {
+          try {
+            loadedCart.add(CartItem.fromMap(value, _products));
+          } catch (e) {
+            print('Warning: Skipping cart item due to error: $e');
+          }
+        });
+
+        cartItems = loadedCart;
+      } else {
+        cartItems = [];
+      }
+      notifyListeners();
+    } catch (e) {
+      print('Failed to load cart from Firebase: $e');
+    }
+  }
+
+  Future<void> saveCartToFirebase() async {
+    final user = _auth.currentUser;
+    if (user == null) return;
+
+    final cartRef = _database.ref('carts/${user.uid}');
+    try {
+      final cartMap = <String, dynamic>{};
+      for (int i = 0; i < cartItems.length; i++) {
+        cartMap['item$i'] = cartItems[i].toMap();
+      }
+      await cartRef.set(cartMap);
+    } catch (e) {
+      print('Failed to save cart to Firebase: $e');
     }
   }
 

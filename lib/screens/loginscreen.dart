@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:myntra/screens/SingupScreen.dart';
 import 'package:myntra/screens/homeScreen.dart';
+import 'package:provider/provider.dart';
+import 'package:myntra/providers/products.dart';
 
 class LoginScreen extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
@@ -13,6 +15,10 @@ class LoginScreen extends StatelessWidget {
         email: emailController.text.trim(),
         password: passwordController.text.trim(),
       );
+
+      // After login, load the user's cart from Firebase RTDB
+      await Provider.of<ProductsProvider>(context, listen: false)
+          .loadCartFromFirebase();
 
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
