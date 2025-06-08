@@ -2,8 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-
-import 'product.dart'; // Import your Product model
+import 'product.dart';
 
 class CartItem {
   final Product product;
@@ -30,8 +29,7 @@ class ProductsProvider extends ChangeNotifier {
       String jsonString = await rootBundle.loadString('assets/datare.json');
       List<dynamic> jsonList = json.decode(jsonString);
       _products = jsonList.map((json) => Product.fromJson(json)).toList();
-      _filteredProducts =
-          List.from(_products); // Initialize filteredProducts with all products
+      _filteredProducts = List.from(_products);
       notifyListeners();
     } catch (e) {
       print('Error loading products: $e');
@@ -39,8 +37,11 @@ class ProductsProvider extends ChangeNotifier {
   }
 
   void toggleFavorite(Product product) {
-    product.isFavorite = !product.isFavorite;
-    notifyListeners();
+    final index = _products.indexWhere((p) => p.name == product.name);
+    if (index != -1) {
+      _products[index].isFavorite = !_products[index].isFavorite;
+      notifyListeners();
+    }
   }
 
   void filterProducts(String color, String gender) {
@@ -53,20 +54,37 @@ class ProductsProvider extends ChangeNotifier {
   }
 
   void addToCart(Product product) {
-    // Check if the product is already in the cart
-    var existingCartItem = cartItems.firstWhere(
-      (item) => item.product == product,
-    );
+    final existingIndex =
+        cartItems.indexWhere((item) => item.product.name == product.name);
 
-    if (existingCartItem != null) {
-      // Increase quantity if already in cart
-      existingCartItem.quantity++;
+    if (existingIndex != -1) {
+      cartItems[existingIndex].quantity++;
     } else {
-      // Add new item to cart
-      cartItems.add(CartItem(product: product));
+      cartItems.add(CartItem(product: product, quantity: 1));
     }
-
     notifyListeners();
+  }
+
+  void removeFromCart(Product product) {
+    final index =
+        cartItems.indexWhere((item) => item.product.name == product.name);
+
+    if (index != -1) {
+      if (cartItems[index].quantity > 1) {
+        cartItems[index].quantity--;
+      } else {
+        cartItems.removeAt(index);
+      }
+      notifyListeners();
+    }
+  }
+
+  CartItem? getCartItem(Product product) {
+    try {
+      return cartItems.firstWhere((item) => item.product.name == product.name);
+    } catch (e) {
+      return null;
+    }
   }
 
   static ProductsProvider of(BuildContext context, {bool listen = true}) =>
