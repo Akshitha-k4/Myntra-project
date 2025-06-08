@@ -1,11 +1,17 @@
 import 'package:camera/camera.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:myntra/firebase_options.dart';
 import 'package:myntra/providers/products.dart';
 import 'package:myntra/screens/homeScreen.dart';
+import 'package:myntra/screens/loginscreen.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+Future<void> main() async {
+   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+);
   runApp(const MyApp());
 }
 
@@ -19,7 +25,7 @@ class MyApp extends StatelessWidget {
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Flutter Demo',
-          home: const HomeScreen(),
+          home: LoginScreen(),
         ));
   }
 }

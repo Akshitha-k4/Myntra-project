@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1083165460044",
+    "firebase_url": "https://myntra-c46c9-default-rtdb.firebaseio.com",
+    "project_id": "myntra-c46c9",
+    "storage_bucket": "myntra-c46c9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083165460044:android:a41cf339cf9e3e8d0156e9",
+        "android_client_info": {
+          "package_name": "com.example.myntra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTZOsAtfrDjAz3BjgK_Ff3IK1cZ2b11Lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
